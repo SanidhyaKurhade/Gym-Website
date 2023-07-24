@@ -6,7 +6,7 @@
 body{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)),url('Images/gym.jpeg');
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)),url('Images/gym.JPG');
     background-repeat: no-repeat;
     background-size: cover;
 }
