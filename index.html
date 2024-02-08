@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cb1a0fb491.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
      <header>
@@ -31,15 +33,39 @@
                 <p class="bottom">We are one of the best Gym's in the World. We have got best trainers
                      which will transform you into whole another level. We have a team of country's best Dieticien which will keep a track on your diet weekly.</p>
 
-                <div class="down">
-                    <a href="#">Log In</a>
-                    <a href="#">Sign Up</a>
-                </div>
+              
             </section>
         </main>
          
         
     
     </header>
+    <div class="container">
+        <div class="formbox">
+            <h1 id="title">Sign Up</h1>
+            <form >
+                <div class="input-group">
+                    <div class="input-field" id="namefield">
+                        <i class="fa-regular fa-user"></i>
+                        <b><input type="text" placeholder="Name"></b>
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Password">
+                    </div>
+                    <p class="forget"><a href="#">Forget password?</a></p>
+                </div>
+                <div class="btnfield">
+                    <button type="button" id="signup">Sign Up</button>
+                    <button type="button" class="disable" id="signin">Sign In</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
